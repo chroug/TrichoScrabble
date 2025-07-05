@@ -1,0 +1,21 @@
+{
+    "name": "valen/tricho-scrabble",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gerbaux valentin",
+            "email": "valentin.gerbaux@etudiant.univ-reims.fr"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "start:windows": [
+            "Composer\\Config::disableProcessTimeout",
+            "bin/run-server.bat"
+        ]
+    }
+}
